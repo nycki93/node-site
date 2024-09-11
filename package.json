@@ -1,0 +1,24 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "copyfiles -u 1 source/* site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nycki93/node-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nycki93/node-site/issues"
+  },
+  "homepage": "https://github.com/nycki93/node-site#readme",
+  "dependencies": {
+    "copyfiles": "^2.4.1"
+  }
+}
